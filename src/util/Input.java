@@ -10,7 +10,7 @@ public class Input {
     }
 
     public boolean yesNo(){
-        String input = scanner.nextLine();
+        String input = scanner.next();
         return (input.equalsIgnoreCase("yes")||input.equalsIgnoreCase("y")||input.equalsIgnoreCase("yeah"));
     }
 
